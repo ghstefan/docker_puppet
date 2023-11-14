@@ -22,8 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         image:
-          - name: ghstefan/puppetserver
-            path: puppetserver
+          - name: dockstefan/puppetserver
+            path: docker_puppet
             platforms: linux/amd64
     steps:
       - name: Checkout
