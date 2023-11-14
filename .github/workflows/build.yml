@@ -25,12 +25,6 @@ jobs:
           - name: vladgh/gpg
             path: gpg
             platforms: linux/amd64
-          - name: vladgh/minidlna
-            path: minidlna
-            platforms: linux/amd64,linux/386,linux/arm/v6,linux/arm/v7,linux/arm64/v8
-          - name: vladgh/s3sync
-            path: s3sync
-            platforms: linux/amd64
     steps:
       - name: Checkout
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1

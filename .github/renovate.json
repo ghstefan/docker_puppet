@@ -10,13 +10,5 @@
     }
   ],
   "ignorePaths": [
-    "apache/**",
-    "awscli/**",
-    "backup/**",
-    "deluge/**",
-    "fpm/**",
-    "puppet**/**",
-    "r10k/**",
-    "webhook/**"
   ]
 }
