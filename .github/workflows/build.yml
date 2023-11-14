@@ -22,8 +22,8 @@ jobs:
       fail-fast: false
       matrix:
         image:
-          - name: vladgh/gpg
-            path: gpg
+          - name: ghstefan/puppetserver
+            path: puppetserver
             platforms: linux/amd64
     steps:
       - name: Checkout
