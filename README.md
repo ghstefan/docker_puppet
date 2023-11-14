@@ -48,3 +48,7 @@ Contributions are always welcome! Please read the [contribution guidelines](.git
 
 Licensed under the Apache License, Version 2.0.
 See [LICENSE](LICENSE) file.
+
+## History
+
+- forked from on the docker base images project from [vladgh](ttps://hub.docker.com/r/vladgh) to get up-to-date puppet opensource containers
